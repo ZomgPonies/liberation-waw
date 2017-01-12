@@ -41,7 +41,10 @@ GRLIB_arsenal_magazines = [
 	"lib_50Rnd_792x57",
 	"lib_250Rnd_792x57",
 	"1Rnd_LIB_PzFaust_30m",
-	"LIB_1Rnd_RPzB"
+	"LIB_1Rnd_RPzB",
+	"LIB_1Rnd_G_SPRGR_30",
+	"LIB_1Rnd_G_PZGR_30",
+	"LIB_1Rnd_G_PZGR_40"
 ];
 
 GRLIB_arsenal_items = [
@@ -55,6 +58,8 @@ GRLIB_arsenal_items = [
 	"ItemWatch",
 	"ItemCompass",
 	"ItemMap",
+	"LIB_ACC_K98_Bayo",
+	"LIB_ACC_GW_SB_Empty",
 	"U_LIB_GER_Tank_crew_private",
 	"U_LIB_GER_Tank_crew_unterofficer",
 	"U_LIB_GER_Tank_crew_leutnant",
@@ -103,11 +108,21 @@ GRLIB_arsenal_items = [
 	"V_LIB_GER_PrivateBelt"
 ];
 
-GRLIB_arsenal_backpacks = [
+GRLIB_arsenal_backpacks = [\
+	"B_LIB_GER_Bag",
+	"B_LIB_GER_GrenadesBag",
+	"B_LIB_GER_K89AmmoBag",
+	"B_LIB_GER_MGAmmoBag",
+	"B_LIB_GER_MineBag",
+	"B_LIB_GER_ExplosivesBag",
 	"B_LIB_GER_A_frame",
+	"B_LIB_GER_A_frame_AT",
+	"B_LIB_GER_A_frame_Gef",
 	"B_LIB_GER_Radio",
 	"B_LIB_GER_Backpack",
+	"B_LIB_GER_SapperBackpack",
 	"B_LIB_GER_MedicBackpack",
+	"B_LIB_GER_Tonister34_cowhide",
 	"B_LIB_GER_LW_Paradrop",
 	"B_LIB_GER_Panzer"
 ];
