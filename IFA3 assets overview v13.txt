@@ -1,0 +1,1305 @@
+CfgFactionClasses
+	LIB_RKKA
+	LIB_NKVD
+	LIB_USSR_TANK_TROOPS
+	LIB_USSR_AIRFORCE
+
+	LIB_WEHRMACHT
+	LIB_PANZERWAFFE
+	LIB_LUFTWAFFE
+	SG_STURMPANZER
+	SG_STURM
+
+	LIB_GUER//Polish troops
+
+	LIB_US_ARMY
+	LIB_US_TANK_TROOPS
+	LIB_US_AIRFORCE
+
+	LIB_RKKA_w
+	LIB_USSR_TANK_TROOPS_w
+	LIB_USSR_AIRFORCE_w
+	LIB_WEHRMACHT_w
+	LIB_PANZERWAFFE_w
+	LIB_LUFTWAFFE_w
+	LIB_GUER_w
+	LIB_US_ARMY_w
+	LIB_US_TANK_TROOPS_w
+	LIB_US_AIRFORCE_w
+	SG_STURMPANZER_w
+	SG_STURM_w
+
+
+
+
+CfgMagazines
+	LIB_8Rnd_9x19
+	LIB_8Rnd_762x25
+	LIB_7Rnd_762x38
+	LIB_32Rnd_9x19
+	LIB_35Rnd_762x25
+	LIB_71Rnd_762x25
+	LIB_5Rnd_762x54
+	LIB_10Rnd_762x54
+	LIB_5Rnd_792x57
+	LIB_10Rnd_792x57
+	LIB_30Rnd_792x33
+	LIB_47Rnd_762x54
+	LIB_63Rnd_762x54
+	LIB_50Rnd_792x57
+	LIB_5Rnd_762x63
+	LIB_8Rnd_762x63
+	LIB_15Rnd_762x33
+	LIB_20Rnd_762x63
+	LIB_30Rnd_45ACP
+	LIB_7Rnd_45ACP
+
+//launchers
+	LIB_1Rnd_PzFaust_30m
+	LIB_PzFaust_30m_Used
+	LIB_1Rnd_RPzB
+	LIB_1Rnd_60mm_M6
+
+//grenades
+	LIB_shg24
+	LIB_shg24x7
+	LIB_m39
+	LIB_f1
+	LIB_rg42
+	LIB_rpg6
+	LIB_pwm
+	LIB_US_Mk_2
+	LIB_RDG
+	LIB_nb39
+	LIB_US_M18
+	LIB_US_M18_Red
+	LIB_US_M18_Green
+	LIB_US_M18_Yellow
+	LIB_1Rnd_flare_white
+	LIB_1Rnd_flare_green
+	LIB_1Rnd_flare_red
+	LIB_1Rnd_flare_yellow
+
+//special ammo
+	LIB_5Rnd_762x54_D
+	LIB_5Rnd_762x54_t46
+	LIB_5Rnd_762x54_t30
+	LIB_10Rnd_762x54_t46
+	LIB_10Rnd_762x54_t30
+	LIB_10Rnd_762x54_d
+	LIB_10Rnd_762x54_t462
+	LIB_10Rnd_762x54_t302
+	LIB_5Rnd_792x57_t
+	LIB_5Rnd_792x57_sS
+	LIB_5Rnd_792x57_SMK
+	LIB_10Rnd_792x57_T
+	LIB_10Rnd_792x57_T2
+	LIB_10Rnd_792x57_sS
+	LIB_10Rnd_792x57_SMK
+	LIB_50Rnd_792x57_sS
+	LIB_50Rnd_792x57_SMK
+	LIB_47Rnd_762x54d
+	LIB_63Rnd_762x54d
+	LIB_35Rnd_762x25_t
+	LIB_71Rnd_762x25_t
+	LIB_35Rnd_762x25_t2
+	LIB_71Rnd_762x25_t2
+	LIB_35Rnd_762x25_ap
+	LIB_71Rnd_762x25_ap
+	LIB_5Rnd_762x54_b30
+	LIB_10Rnd_762x54_b30
+
+//mortar
+	LIB_8Rnd_82mmHE_BM37
+	ARTY_LIB_8Rnd_82mmHE_BM37
+	LIB_1rnd_82mmHE_BM37
+	LIB_8Rnd_81mmHE_GRWR34
+	ARTY_LIB_8Rnd_81mmHE_GRWR34
+	LIB_1rnd_81mmHE_GRWR34
+	LIB_82mm_BM37_SmokeShell
+	LIB_81mm_GRWR34_SmokeShell
+
+//mines
+	LIB_TMI_42_MINE_mag
+	LIB_SMI_35_1_MINE_mag
+	LIB_pomzec_MINE_mag
+	LIB_SMI_35_MINE_mag
+	LIB_STMI_MINE_mag
+	LIB_shumine_42_MINE_mag
+	LIB_Ladung_Small_MINE_mag
+	LIB_Ladung_Big_MINE_mag
+	LIB_M3_MINE_mag
+	LIB_PMD6_MINE_mag
+	LIB_TM44_MINE_mag
+	LIB_TROTIL_MINE_mag
+	LIB_US_M1A1_ATMINE_mag
+	LIB_US_M3_MINE_mag
+	LIB_US_TNT_4pound_mag
+	LIB_PP_MINE_mag
+	LIB_PM_MINE_mag
+	LIB_PM_Provod_50
+	LIB_PM_Provod_75
+	LIB_PM_Provod_100
+	LIB_Ladung_PM_MINE_mag
+	LIB_US_BM10_PM_mag
+	LIB_MARKER_MINE_mag
+
+
+
+CfgWeapons
+//optics
+	LIB_ACC_M44_Bayo
+	LIB_ACC_K98_Bayo
+	LIB_ACC_M1891_Bayo
+	LIB_M1918A2_BAR_Bipod
+
+	LIB_Binocular_GER
+	LIB_Binocular_PL
+	LIB_Binocular_SU
+	LIB_Binocular_US
+
+//pistol
+	LIB_P38
+	LIB_M1908
+	LIB_TT33
+	LIB_M1895
+	LIB_Colt_M1911
+	LIB_FLARE_PISTOL
+
+//SMG
+	LIB_MP40
+	LIB_PPSh41_m
+	LIB_PPSh41_d
+	LIB_M1A1_Thompson
+
+//Rifle
+	LIB_K98
+	LIB_G3340
+	LIB_M9130
+	LIB_M38
+	LIB_M44
+	LIB_MP44
+	LIB_SVT_40
+	LIB_G43
+	LIB_M1_Garand
+	LIB_M1_Carbine
+
+//LMG
+	LIB_DP28
+	LIB_DT
+	LIB_DT_OPTIC
+	LIB_MG42
+
+//HMG
+	LIB_M1918A2_BAR
+
+//snipers
+	LIB_K98ZF39
+	LIB_M9130PU
+	LIB_M1903A4_Springfield
+
+//launchers
+	LIB_PzFaust_30m
+	LIB_PzFaust_30m_used
+	LIB_RPzB
+	LIB_M1A1_Bazooka
+
+//static weapons
+	LIB_M2
+	LIB_MLMG42
+	LIB_MG42_Tripod
+	LIB_MG42_Veh
+	LIB_Maxim_M30
+//mortars
+	LIB_BM37
+	LIB_GRWR34
+
+//items
+	LIB_ToolKit
+
+
+//clothing
+	U_LIB_SOV_Strelok
+	U_LIB_SOV_Strelok_summer
+	U_LIB_SOV_Strelokart
+	U_LIB_SOV_Tank_private_field
+	U_LIB_SOV_Starshina
+	U_LIB_SOV_Efreitor
+	U_LIB_SOV_Efreitor_summer
+	U_LIB_SOV_Sergeant
+	U_LIB_SOV_Sergeant_inset_pocket
+	U_LIB_SOV_Stsergeant
+	U_LIB_SOV_Leutenant
+	U_LIB_SOV_Pilot
+	U_LIB_SOV_Leutenant_inset_pocket
+	U_LIB_SOV_Artleutenant
+	U_LIB_SOV_Stleutenant
+	U_LIB_SOV_Kapitan
+	U_LIB_SOV_Kapitan_summer
+	U_LIB_SOV_Razvedchik_am
+	U_LIB_SOV_Razvedchik_lis
+	U_LIB_SOV_Razvedchik_mix
+	U_LIB_SOV_Razvedchik_autumn
+	U_LIB_SOV_Sniper
+	U_LIB_SOV_Sniper_spring
+	U_LIB_SOV_Sniper_autumn
+	U_LIB_SOV_Tank_ryadovoi
+	U_LIB_SOV_Tank_sergeant
+	U_LIB_SOV_Tank_leutenant
+	U_LIB_SOV_Tank_kapitan
+	H_LIB_SOV_RA_PrivateCap
+	H_LIB_SOV_RA_OfficerCap
+	H_LIB_SOV_RA_Helmet
+	H_LIB_SOV_TankHelmet
+	H_LIB_SOV_PilotHelmet
+	H_LIB_SOV_Ushanka
+	H_LIB_SOV_Ushanka2
+	V_LIB_SOV_IShBrVestMG
+	V_LIB_SOV_IShBrVestPPShMag
+	V_LIB_SOV_IShBrVestPPShDisc
+	V_LIB_SOV_RA_OfficerVest
+	V_LIB_SOV_RA_SniperVest
+	V_LIB_SOV_RA_Belt
+	V_LIB_SOV_RA_TankOfficerSet
+	V_LIB_SOV_RA_PPShBelt
+	V_LIB_SOV_RA_MosinBelt
+	V_LIB_SOV_RA_SVTBelt
+	V_LIB_SOV_RA_MGBelt
+	V_LIB_SOV_RAZV_SVTBelt
+	V_LIB_SOV_RAZV_OfficerVest
+	V_LIB_SOV_RAZV_MGBelt
+	V_LIB_SOV_RAZV_PPShBelt
+
+	U_LIB_NKVD_Efreitor
+	U_LIB_NKVD_Strelok
+	U_LIB_NKVD_Starshina
+	U_LIB_NKVD_Sergeant
+	U_LIB_NKVD_Leutenant
+	U_LIB_NKVD_StLeutenant
+	H_LIB_NKVD_PrivateCap
+	H_LIB_NKVD_OfficerCap
+
+	U_LIB_GER_Soldier_camo
+	U_LIB_GER_Soldier_camo2
+	U_LIB_GER_Soldier_camo3
+	U_LIB_GER_Soldier_camo4
+	U_LIB_GER_Soldier_camo5
+	U_LIB_GER_Soldier
+	U_LIB_GER_Soldier2
+	U_LIB_GER_Soldier3
+	U_LIB_GER_Schutze
+	U_LIB_GER_Pionier
+	U_LIB_GER_LW_pilot
+	U_LIB_GER_Officer_camo
+	U_LIB_GER_Funker
+	U_LIB_GER_Art_schutze
+	U_LIB_GER_Oberschutze
+	U_LIB_GER_Gefreiter
+	U_LIB_GER_Unterofficer
+	U_LIB_GER_Art_unterofficer
+	U_LIB_GER_Recruit
+	U_LIB_GER_Medic
+	U_LIB_GER_Leutnant
+	U_LIB_GER_Art_leutnant
+	U_LIB_GER_Oberleutnant
+	U_LIB_GER_Hauptmann
+	U_LIB_GER_Oberst
+	U_LIB_GER_Scharfschutze
+	U_LIB_GER_MG_schutze
+	H_LIB_GER_Helmet
+	H_LIB_GER_Helmet_net
+	H_LIB_GER_Helmet_ns
+	H_LIB_GER_Helmet_painted
+	H_LIB_GER_Helmet_net_painted
+	H_LIB_GER_Helmet_ns_painted
+	H_LIB_GER_HelmetCamo
+	H_LIB_GER_HelmetCamo2
+	H_LIB_GER_OfficerCap
+	H_LIB_GER_Cap
+	H_LIB_GER_Fieldcap
+	H_LIB_GER_LW_PilotHelmet
+	H_LIB_GER_Ushanka
+	V_LIB_GER_VestMP40
+	V_LIB_GER_VestSTG
+	V_LIB_GER_VestKar98
+	V_LIB_GER_VestG43
+	V_LIB_GER_SniperBelt
+	V_LIB_GER_VestMG
+	V_LIB_GER_VestUnterofficer
+	V_LIB_GER_FieldOfficer
+	V_LIB_GER_OfficerVest
+	V_LIB_GER_OfficerBelt
+	V_LIB_GER_PrivateBelt
+	V_LIB_GER_PioneerVest
+
+	U_LIB_GER_Tank_crew_private
+	U_LIB_GER_Tank_crew_unterofficer
+	U_LIB_GER_Tank_crew_leutnant
+	U_LIB_GER_Spg_crew_private
+	U_LIB_GER_Spg_crew_unterofficer
+	U_LIB_GER_Spg_crew_leutnant
+	H_LIB_GER_TankOfficerCap
+	H_LIB_GER_TankOfficerCap2
+	H_LIB_GER_TankPrivateCap
+	H_LIB_GER_TankPrivateCap2
+	H_LIB_GER_SPGPrivateCap
+	V_LIB_GER_TankPrivateBelt
+
+	U_LIB_WP_Soldier_camo_1
+	U_LIB_WP_Soldier_camo_2
+	U_LIB_WP_Soldier_camo_3
+	H_LIB_WP_Helmet
+	H_LIB_WP_Helmet_camo
+	H_LIB_WP_Helmet_med
+	H_LIB_WP_Cap
+	V_LIB_WP_MP40Vest
+	V_LIB_WP_STGVest
+	V_LIB_WP_Kar98Vest
+	V_LIB_WP_G43Vest
+	V_LIB_WP_SniperBela
+	V_LIB_WP_MGVest
+	V_LIB_WP_OfficerVest
+
+	U_LIB_US_Private
+	U_LIB_US_Private_1st
+	U_LIB_US_Corp
+	U_LIB_US_Sergant
+	U_LIB_US_Snipe
+	U_LIB_US_Eng
+	U_LIB_US_Med
+	U_LIB_US_Off
+	U_LIB_US_Cap
+	H_LIB_US_Helmet
+	H_LIB_US_Helmet_Net
+	H_LIB_US_Helmet_Med
+	H_LIB_US_Helmet_Cap
+	H_LIB_US_Helmet_First_lieutenant
+	H_LIB_US_Helmet_Second_lieutenant
+	H_LIB_US_Helmet_Tank
+	H_LIB_US_Helmet_Pilot
+	V_LIB_US_Vest_Bar
+	V_LIB_US_Vest_Asst_MG
+	V_LIB_US_Vest_Carbine
+	V_LIB_US_Vest_Carbine_eng
+	V_LIB_US_Vest_Carbine_nco
+	V_LIB_US_Vest_Garand
+	V_LIB_US_Vest_Grenadier
+	V_LIB_US_Vest_Medic
+	V_LIB_US_Vest_Medic2
+	V_LIB_US_Vest_Thompson
+	V_LIB_US_Vest_Thompson_nco
+	V_LIB_US_Vest_45
+
+
+	U_LIB_GER_Soldier_camo_w
+	U_LIB_GER_Pionier_w
+	U_LIB_GER_LW_pilot_w
+	U_LIB_GER_Officer_camo_w
+	U_LIB_GER_Funker_w
+	U_LIB_GER_Schutze_w
+	U_LIB_GER_Art_schutze_w
+	U_LIB_GER_Oberschutze_w
+	U_LIB_GER_Gefreiter_w
+	U_LIB_GER_Unterofficer_w
+	U_LIB_GER_Art_unterofficer_w
+	U_LIB_GER_Recruit_w
+	U_LIB_GER_Medic_w
+	U_LIB_GER_Leutnant_w
+	U_LIB_GER_Art_leutnant_w
+	U_LIB_GER_Oberleutnant_w
+	U_LIB_GER_Hauptmann_w
+	U_LIB_GER_Oberst_w
+	U_LIB_GER_Scharfschutze_w
+	U_LIB_GER_MG_schutze_w
+	H_LIB_GER_HelmetCamo_w
+	H_LIB_GER_Helmet_w
+	H_LIB_GER_OfficerCap_w
+	H_LIB_GER_Cap_w
+	H_LIB_GER_LW_PilotHelmet_w
+	V_LIB_GER_VestMP40_w
+	V_LIB_GER_VestSTG_w
+	V_LIB_GER_VestKar98_w
+	V_LIB_GER_VestG43_w
+	V_LIB_GER_SniperBelt_w
+	V_LIB_GER_VestMG_w
+	V_LIB_GER_VestUnterofficer_w
+	V_LIB_GER_FieldOfficer_w
+	V_LIB_GER_OfficerVest_w
+	V_LIB_GER_OfficerBelt_w
+	V_LIB_GER_PrivateBelt_w
+
+	U_LIB_GER_Tank_crew_private_w
+	U_LIB_GER_Tank_crew_unterofficer_w
+	U_LIB_GER_Tank_crew_leutnant_w
+	U_LIB_GER_Spg_crew_private_w
+	U_LIB_GER_Spg_crew_unterofficer_w
+	U_LIB_GER_Spg_crew_leutnant_w
+	H_LIB_GER_TankOfficerCap_w
+	H_LIB_GER_TankPrivateCap_w
+	H_LIB_GER_SPGPrivateCap_w
+	V_LIB_GER_TankPrivateBelt_w
+
+	U_LIB_WP_Soldier_camo_1_w
+	U_LIB_WP_Soldier_camo_2_w
+	U_LIB_WP_Soldier_camo_3_w
+	H_LIB_WP_Helmet_w
+	H_LIB_WP_Helmet_camo_w
+	H_LIB_WP_Helmet_med_w
+	H_LIB_WP_Cap_w
+	V_LIB_WP_MP40Vest_w
+	V_LIB_WP_STGVest_w
+	V_LIB_WP_Kar98Vest_w
+	V_LIB_WP_G43Vest_w
+	V_LIB_WP_SniperBela_w
+	V_LIB_WP_MGVest_w
+	V_LIB_WP_OfficerVest_w
+
+	U_LIB_SOV_Strelok_w
+	U_LIB_SOV_Strelokart_w
+	U_LIB_SOV_Tank_private_field_w
+	U_LIB_SOV_Starshina_w
+	U_LIB_SOV_Efreitor_w
+	U_LIB_SOV_Sergeant_w
+	U_LIB_SOV_Sergeant_inset_pocket_w
+	U_LIB_SOV_Stsergeant_w
+	U_LIB_SOV_Leutenant_w
+	U_LIB_SOV_Pilot_w
+	U_LIB_SOV_Leutenant_inset_pocket_w
+	U_LIB_SOV_Artleutenant_w
+	U_LIB_SOV_Stleutenant_w
+	U_LIB_SOV_Kapitan_w
+	U_LIB_SOV_Razvedchik_am_w
+	U_LIB_SOV_Razvedchik_lis_w
+	U_LIB_SOV_Razvedchik_mix_w
+	U_LIB_SOV_Sniper_w
+	U_LIB_SOV_Tank_ryadovoi_w
+	U_LIB_SOV_Tank_sergeant_w
+	U_LIB_SOV_Tank_leutenant_w
+	U_LIB_SOV_Tank_kapitan_w
+	H_LIB_SOV_RA_PrivateCap_w
+	H_LIB_SOV_RA_OfficerCap_w
+	H_LIB_SOV_RA_Helmet_w
+	H_LIB_SOV_TankHelmet_w
+	H_LIB_SOV_PilotHelmet_w
+	V_LIB_SOV_IShBrVestMG_w
+	V_LIB_SOV_IShBrVestPPShMag_w
+	V_LIB_SOV_IShBrVestPPShDisc_w
+	V_LIB_SOV_RA_OfficerVest_w
+	V_LIB_SOV_RA_SniperVest_w
+	V_LIB_SOV_RA_Belt_w
+	V_LIB_SOV_RA_TankOfficerSet_w
+	V_LIB_SOV_RA_PPShBelt_w
+	V_LIB_SOV_RA_MosinBelt_w
+	V_LIB_SOV_RA_SVTBelt_w
+	V_LIB_SOV_RA_MGBelt_w
+	V_LIB_SOV_RAZV_SVTBelt_w
+	V_LIB_SOV_RAZV_OfficerVest_w
+	V_LIB_SOV_RAZV_MGBelt_w
+	V_LIB_SOV_RAZV_PPShBelt_w
+
+	U_LIB_US_Private_w
+	U_LIB_US_Private_1st_w
+	U_LIB_US_Corp_w
+	U_LIB_US_Sergant_w
+	U_LIB_US_Snipe_w
+	U_LIB_US_Eng_w
+	U_LIB_US_Med_w
+	U_LIB_US_Off_w
+	U_LIB_US_Cap_w
+	H_LIB_US_Helmet_w
+	H_LIB_US_Helmet_Net_w
+	H_LIB_US_Helmet_Med_w
+	H_LIB_US_Helmet_Cap_w
+	H_LIB_US_Helmet_First_lieutenant_w
+	H_LIB_US_Helmet_Second_lieutenant_w
+	V_LIB_US_Vest_Bar_w
+	V_LIB_US_Vest_Asst_MG_w
+	V_LIB_US_Vest_Carbine_w
+	V_LIB_US_Vest_Carbine_eng_w
+	V_LIB_US_Vest_Carbine_nco_w
+	V_LIB_US_Vest_Garand_w
+	V_LIB_US_Vest_Grenadier_w
+	V_LIB_US_Vest_Medic_w
+	V_LIB_US_Vest_Thompson_w
+	V_LIB_US_Vest_Thompson_nco_w
+	V_LIB_US_Vest_45_w
+
+
+
+CfgVehicles
+	LIB_SOV_soldier_PPSH41
+	LIB_SOV_soldier_mosin_rifle_0
+	LIB_SOV_sergeant_PPSH41_0
+	LIB_SOV_lieutenant_PPSH41
+	LIB_SOV_rifleman
+	LIB_SOV_unequip
+	LIB_SOV_smgunner
+	LIB_SOV_LC_rifleman
+	LIB_SOV_mgunner
+	LIB_SOV_medic
+	LIB_SOV_AT_soldier
+	LIB_SOV_AT_grenadier
+	LIB_SOV_staff_sergeant
+	LIB_SOV_sergeant
+	LIB_SOV_p_officer
+	LIB_SOV_lieutenant
+	LIB_SOV_first_lieutenant
+	LIB_SOV_captain
+	LIB_SOV_scout_rifleman
+	LIB_SOV_scout_smgunner
+	LIB_SOV_scout_mgunner
+	LIB_SOV_scout_sergeant
+	LIB_SOV_scout_p_officer
+	LIB_SOV_scout_lieutenant
+	LIB_SOV_scout_sniper
+	LIB_SOV_operator
+	LIB_SOV_sapper
+	LIB_SOV_assault_smgunner
+	LIB_SOV_assault_mgunner
+	LIB_SOV_assault_sergeant
+	LIB_SOV_tank_crew
+	LIB_SOV_tank_sergeant
+	LIB_SOV_tank_crew_lieutenant
+	LIB_SOV_tank_lieutenant
+	LIB_SOV_tank_captain
+	LIB_SOV_tank_overall_crew
+	LIB_SOV_tank_overall_sergeant
+	LIB_SOV_tank_overall_lieutenant
+	LIB_SOV_tank_overall_captain
+	LIB_SOV_gun_crew
+	LIB_SOV_gun_sergeant
+	LIB_SOV_gun_lieutenant
+	LIB_SOV_pilot
+
+	LIB_SOV_smgunner_summer
+	LIB_SOV_LC_rifleman_summer
+	LIB_SOV_captain_summer
+	LIB_SOV_scout_rifleman_autumn
+	LIB_SOV_scout_sniper_spring
+	LIB_SOV_scout_sniper_autumn
+
+	LIB_NKVD_rifleman
+	LIB_NKVD_LC_rifleman
+	LIB_NKVD_smgunner
+	LIB_NKVD_p_officer
+	LIB_NKVD_sergeant
+	LIB_NKVD_lieutenant
+	LIB_NKVD_first_lieutenant
+
+	LIB_GER_soldier_camo_MP40
+	LIB_GER_soldier_camo_MP40_with_grenades
+	LIB_GER_soldier_camo_K98
+	LIB_GER_soldier_camo_K98_with_grenades
+	LIB_GER_soldier_MP40
+	LIB_GER_soldier_K98
+	LIB_GER_inf_officer_0
+	LIB_GER_inf_officer_1
+	LIB_GER_rifleman
+	LIB_GER_recruit
+	LIB_GER_unequip
+	LIB_GER_ober_rifleman
+	LIB_GER_mgunner
+	LIB_GER_stggunner
+	LIB_GER_AT_soldier
+	LIB_GER_AT_grenadier
+	LIB_GER_smgunner
+	LIB_GER_unterofficer
+	LIB_GER_lieutenant
+	LIB_GER_ober_lieutenant
+	LIB_GER_hauptmann
+	LIB_GER_oberst
+	LIB_GER_scout_rifleman
+	LIB_GER_scout_ober_rifleman
+	LIB_GER_scout_mgunner
+	LIB_GER_scout_smgunner
+	LIB_GER_scout_unterofficer
+	LIB_GER_scout_lieutenant
+	LIB_GER_scout_sniper
+	LIB_GER_medic
+	LIB_GER_radioman
+	LIB_GER_sapper
+	LIB_GER_sapper_gefr
+	LIB_GER_gun_crew
+	LIB_GER_gun_unterofficer
+	LIB_GER_gun_lieutenant
+	LIB_GER_spg_crew
+	LIB_GER_tank_officer
+	LIB_GER_spg_unterofficer
+	LIB_GER_spg_lieutenant
+	LIB_GER_pilot
+
+	LIB_GER_tank_crew
+	LIB_GER_tank_unterofficer
+	LIB_GER_tank_lieutenant
+
+	LNRD_Luftwaffe_rifleman
+	LNRD_Luftwaffe_flaksoldat
+	LNRD_Luftwaffe_ober_rifleman
+	LNRD_Luftwaffe_mgunner
+	LNRD_Luftwaffe_AT_soldier
+	LNRD_Luftwaffe_AT_grenadier
+	LNRD_Luftwaffe_stggunner
+	LNRD_Luftwaffe_smgunner
+	LNRD_Luftwaffe_sniper
+	LNRD_Luftwaffe_medic
+	LNRD_Luftwaffe_radioman
+
+	SG_sturmpanzer_crew
+	SG_sturmpanzer_unterofficer
+	SG_sturmpanzer_officer
+
+	SG_sturmtrooper_rifleman
+	SG_sturmtrooper_ober_rifleman
+	SG_sturmtrooper_mgunner
+	SG_sturmtrooper_AT_soldier
+	SG_sturmtrooper_AT_grenadier
+	SG_sturmtrooper_stggunner
+	SG_sturmtrooper_smgunner
+	SG_sturmtrooper_unterofficer
+	SG_sturmtrooper_lieutenant
+	SG_sturmtrooper_sniper
+	SG_sturmtrooper_medic
+	SG_sturmtrooper_radioman
+	SG_sturmtrooper_sapper
+	SG_sturmtrooper_sapper_gefr
+
+	LIB_WP_Strzelec
+	LIB_WP_Starszy_strzelec
+	LIB_WP_Mgunner
+	LIB_WP_AT_grenadier
+	LIB_WP_Stggunner
+	LIB_WP_Sierzant
+	LIB_WP_Porucznic
+	LIB_WP_Sniper
+	LIB_WP_Medic
+	LIB_WP_Radioman
+	LIB_WP_Saper
+	LIB_WP_Starszy_saper
+
+	LIB_US_rifleman
+	LIB_US_driver
+	LIB_US_FC_rifleman
+	LIB_US_corporal
+	LIB_US_smgunner
+	LIB_US_second_lieutenant
+	LIB_US_first_lieutenant
+	LIB_US_captain
+	LIB_US_sniper
+	LIB_US_mgunner
+	LIB_US_AT_soldier
+	LIB_US_engineer
+	LIB_US_medic
+	LIB_US_radioman
+	LIB_US_grenadier
+	LIB_US_pilot
+	LIB_US_tank_crew
+	LIB_US_tank_sergeant
+	LIB_US_tank_second_lieutenant
+
+	LIB_GER_rifleman_ADS
+	LIB_WP_Strzelec_ADS
+	LIB_SOV_rifleman_ADS
+	LNRD_Luftwaffe_rifleman_ADS
+	SG_sturmtrooper_rifleman_ADS
+	LIB_US_rifleman_ADS
+
+
+
+	B_LIB_SOV_RA_GasBag
+	B_LIB_SOV_RA_Paradrop
+	B_LIB_SOV_RA_MedicalBag
+	B_LIB_SOV_RA_MedicalBag_Empty
+	B_LIB_SOV_RA_Radio
+	B_LIB_SOV_RA_Rucksack
+	B_LIB_SOV_RA_Rucksack_Green
+	B_LIB_SOV_RA_RucksackMines
+	B_LIB_SOV_RA_RucksackMines2
+	B_LIB_SOV_RA_MGAmmoBag
+	B_LIB_SOV_RA_MGAmmoBag_Empty
+
+	B_LIB_GER_A_frame
+	B_LIB_GER_A_frame_AT
+	B_LIB_GER_A_frame_Gef
+	B_LIB_GER_Radio
+	B_LIB_GER_Backpack
+	B_LIB_GER_SapperBackpack
+	B_LIB_GER_SapperBackpack2
+	B_LIB_GER_MedicBackpack
+	B_LIB_GER_MedicBackpack_Empty
+	B_LIB_GER_Tonister34_cowhide
+	B_LIB_GER_LW_Paradrop
+	B_LIB_GER_Panzer
+	B_LIB_GER_Panzer_Empty
+
+	B_LIB_US_Backpack
+	B_LIB_US_Backpack_dday
+	B_LIB_US_Backpack_eng
+	B_LIB_US_MedicBackpack
+	B_LIB_US_MedicBackpack_Empty
+	B_LIB_US_RocketBag
+	B_LIB_US_RocketBag_Empty
+	B_LIB_US_Radio
+	B_LIB_US_Bandoleer
+	B_LIB_US_MGbag
+	B_LIB_US_MGbag_Empty
+
+	B_LIB_GER_Radio_ACRE2
+	B_LIB_SOV_RA_Radio_ACRE2
+	B_LIB_US_Radio_ACRE2
+
+	B_LIB_BasicBag
+	B_LIB_GER_Bag
+	B_LIB_GER_GrenadesBag
+	B_LIB_GER_K89AmmoBag
+	B_LIB_GER_MGAmmoBag
+	B_LIB_GER_MineBag
+	B_LIB_GER_ExplosivesBag
+	B_LIB_SOV_Bag
+	B_LIB_SOV_GrenadesBag
+	B_LIB_SOV_PPShAmmoBag
+	B_LIB_SOV_MinesBag
+	B_LIB_SOV_ExplosivesBag
+	B_LIB_SOV_MosinAmmoBag
+	B_LIB_SOV_DPAmmoBag
+	B_LIB_US_Bag
+	B_LIB_US_BARBag
+	B_LIB_US_BazBag
+	B_LIB_US_MineBag
+	B_LIB_FunkBag
+	B_LIB_FunkBag_Empty
+	B_LIB_RadioBag
+	B_LIB_RadioBag_Empty
+
+
+
+	LIB_Kfz1
+	LIB_Kfz1_MG42
+	LIB_Willys_MB
+	LIB_US_Willys_MB
+
+
+	LIB_zis5v
+	LIB_zis5v_med
+	LIB_zis6_parm
+	LIB_zis5v_fuel
+	LIB_US6_Open
+	LIB_US6_Tent
+	LIB_US6_Tent_Cargo
+	LIB_US6_Open_Cargo
+	LIB_US6_Ammo
+	LIB_US6_BM13
+	LIB_US_GMC_Open
+	LIB_US_GMC_Tent
+	LIB_US_GMC_Ammo
+	LIB_US_GMC_Ambulance
+	LIB_US_GMC_Parm
+	LIB_US_GMC_Fuel
+	LIB_opelblitz_open_y_camo
+	LIB_opelblitz_open_g_camo
+	LIB_opelblitz_tent_y_camo
+	LIB_opelblitz_fuel
+	LIB_opelblitz_ambulance
+	LIB_opelblitz_parm
+	LIB_opelblitz_ammo
+	LIB_Scout_M3
+	LIB_Scout_M3_FFV
+	LIB_US_Scout_M3
+	LIB_US_Scout_M3_FFV
+
+
+
+	LIB_SdKfz251
+	LIB_SdKfz251_FFV
+	LIB_SdKfz251_captured
+	LIB_SdKfz251_captured_FFV
+	LIB_SdKfz_7
+	LIB_SdKfz_7_AA
+	LIB_US_M3_Halftrack
+	LIB_SOV_M3_Halftrack
+
+
+
+	LIB_JS2_43
+	LIB_M4A3_75
+	LIB_M4A3_75_Tubes
+	LIB_M4A2_SOV
+	LIB_PzKpfwIV_H
+	LIB_PzKpfwV_no_lods
+	LIB_PzKpfwV
+	LIB_PzKpfwVI_B
+	LIB_PzKpfwVI_B_camo
+	LIB_PzKpfwVI_E
+	LIB_StuG_III_G
+	LIB_StuG_III_G_WS
+	LIB_T34_76
+	LIB_T34_85
+	LIB_SU85
+
+
+
+	LIB_FW190F8
+	LIB_Ju87
+	LIB_P39
+	LIB_Pe2
+	LIB_Li2
+	LIB_P47
+
+
+
+	LIB_61k
+	LIB_Zis3
+	LIB_Pak40
+	LIB_Pak40_g
+	LIB_FlaK_38
+	LIB_FlaK_30
+	LIB_Flakvierling_38
+
+
+
+	LIB_LCVP
+
+
+
+	LIB_GER_SearchLight
+	LIB_SU_SearchLight
+	LIB_MG42_Lafette
+	LIB_MG42_Lafette_trench
+	LIB_MG42_Lafette_low
+	LIB_Maxim_M30_Trench
+
+	LIB_BM37
+	LIB_GrWr34
+
+
+	LIB_Tripod_Bag
+	LIB_BM37_Bag
+	LIB_BM37_Bar
+	LIB_GrWr34_Bag
+	LIB_GrWr34_Bar
+	LIB_MG42_Bag
+	LIB_MG42_Tripod_Disasm
+	LIB_Maxim_Bag
+	LIB_Maxim_Bar
+
+
+
+	LIB_4Rnd_Panzerfaust30
+	LIB_4Rnd_RPzB
+	LIB_BasicAmmunitionBox_SU
+	LIB_BasicAmmunitionBox_GER
+	LIB_BasicAmmunitionBox_US
+	LIB_BasicWeaponsBox_SU
+	LIB_BasicWeaponsBox_GER
+	LIB_BasicWeaponsBox_US
+	LIB_WeaponsBox_Big_SU
+	LIB_Lone_Big_Box
+	LIB_WeaponsBox_Big_GER
+	LIB_AmmoCrate_Arty_GER
+	LIB_AmmoCrate_Arty_SU
+	LIB_AmmoCrate_Mortar_GER
+	LIB_AmmoCrate_Mortar_SU
+	LIB_AmmoCrates_NoInteractive_Large
+
+	LIB_Backpack_us
+	LIB_Backpack_US_BAR
+	LIB_Backpack_US_Baz
+	LIB_Backpack_US_Mine
+
+
+	LIB_MINE_marker
+	LIB_Mine_Ammo_Box_Ger
+	LIB_Mine_Ammo_Box_Su
+	LIB_Mine_AmmoBox_US
+	LIB_smi_35_1_geom
+	LIB_smi_35_geom
+	LIB_pomzec_geom
+	LIB_stmi_geom
+	LIB_shumine42_geom
+	LIB_MINE_PP_obj
+	LIB_MINE_TMI42_Field_70x30
+	LIB_MINE_TM44_Field_70x30
+	LIB_MINE_TMI42_Field_30x30
+	LIB_MINE_TM44_Field_30x30
+	LIB_MINE_US_M1A1_ATMINE_Field_30x30
+	LIB_MINE_TMI_42_obj
+	LIB_MINE_TM_44_obj
+	LIB_MINE_pomzec_obj
+	LIB_MINE_SMi35_1_obj
+	LIB_MINE_SMi35_obj
+	LIB_MINE_StMi_obj
+	LIB_MINE_shumine42_obj
+	LIB_MINE_Ladung_Small_obj
+	LIB_MINE_Ladung_Big_obj
+	LIB_MINE_Ladung_PM_obj
+	LIB_MINE_PM_obj
+	LIB_MINE_M3_obj
+	LIB_MINE_PMD6_obj
+	LIB_MINE_TROTIL_obj
+	LIB_MINE_US_M1A1_ATMINE_obj
+	LIB_MINE_US_M3_obj
+	LIB_MINE_US_TNT_4pound_obj
+	LIB_MINE_US_BM10_PM_obj
+	LIB_MINE_MARKER_obj
+
+	LIB_PP_MINE
+	LIB_TMI_42_MINE
+	LIB_SMI_35_1_MINE
+	LIB_pomzec_MINE
+	LIB_SMI_35_MINE
+	LIB_STMI_MINE
+	LIB_shumine_42_MINE
+	LIB_Ladung_Small_MINE
+	LIB_Ladung_Big_MINE
+	LIB_Ladung_PM_MINE
+	LIB_M3_MINE
+	LIB_PMD6_MINE
+	LIB_TM44_MINE
+	LIB_PM_MINE
+	LIB_TROTIL_MINE
+	LIB_MARKER_MINE
+	LIB_US_M1A1_ATMINE
+	LIB_US_M3_MINE
+	LIB_US_TNT_4pound
+	LIB_US_BM10_PM
+
+
+	LIB_kfz1_Wreck
+	Lib_Willys_Wreck
+	LIB_OpelBlitz_Wreck
+	LIB_OpelBlitz_2_Wreck
+	LIB_opelblitz_fuel_Wreck
+	LIB_zis5v_Wreck
+	LIB_zis5v_med_Wreck
+	LIB_zis5v_fuel_Wreck
+	LIB_zis6_parm_Wreck
+	LIB_us6_Wreck
+	LIB_us6_bm13_Wreck
+	LIB_SdKfz251_Wreck
+	LIB_SdKfz251_captured_wreck
+	LIB_T34_76_Wreck
+	LIB_SU85_Wreck
+	LIB_PzKpfwV_Wreck
+	LIB_PzKpfwIV_H_Wreck
+	LIB_JS2_43_wreck
+	LIB_PzKpfwVI_B_wreck
+	LIB_PzKpfwVI_B_camo_wreck
+	LIB_t34_85_wreck
+	LIB_StuG_III_G_wreck
+	LIB_M4A3_75_wreck
+	LIB_Pe2_Wreck
+	LIB_Zis3_wreck
+	LIB_FW190F8_MRWreck
+	LIB_Ju87_MRWreck
+	LIB_P39_MRWreck
+	LIB_Pe2_MRWreck
+	LIB_Li2_MRWreck
+	LIB_P47_MRWreck
+
+	LIB_Static_zis6_radar
+	LIB_Static_opelblitz_radio
+
+	LIB_FlagCarrier_SU
+	LIB_FlagCarrier_GER
+	LIB_FlagCarrier_USA
+
+	LIB_ProtectionZone_Invisible
+
+	LIB_Target
+	LIB_Target_Mgun
+	LIB_Target_Stand
+	LIB_Target_Prone
+
+	LIB_Armored_Target_Dummy
+
+	LIB_Invisible_Target_East_Armored
+	LIB_Invisible_Target_West_Armored
+	LIB_Invisible_Target_Resist_Armored
+
+	LIB_Effect_01
+	LIB_Effect_02
+	LIB_Effect_03
+	LIB_Effect_04
+	LIB_Effect_05
+	LIB_Effect_06
+	LIB_FNC
+	LIB_Distance
+	LIB_Advanced_AI_Module
+	LIB_Armor_Damage_System_Logic
+	LIB_House_Fire_System_Logic
+	LIB_MinesFunc
+	LIB_improved_explosions_effects
+	LIB_ArtyFunc
+
+	LIB_Sound_Alarm
+
+
+	LIB_GER_Soldier_camo_MP40_w
+	LIB_GER_Soldier_camo_MP40_with_grenades_w
+	LIB_GER_Soldier_camo_K98_w
+	LIB_GER_Soldier_camo_K98_with_grenades_w
+	LIB_GER_Soldier_MP40_w
+	LIB_GER_Soldier_K98_w
+	LIB_GER_Inf_officer_0_w
+	LIB_GER_Inf_officer_1_w
+	LIB_GER_Rifleman_w
+	LIB_GER_Recruit_w
+	LIB_GER_Unequip_w
+	LIB_GER_Ober_rifleman_w
+	LIB_GER_Mgunner_w
+	LIB_GER_Stggunner_w
+	LIB_GER_AT_soldier_w
+	LIB_GER_AT_grenadier_w
+	LIB_GER_Smgunner_w
+	LIB_GER_Unterofficer_w
+	LIB_GER_Lieutenant_w
+	LIB_GER_Ober_lieutenant_w
+	LIB_GER_Hauptmann_w
+	LIB_GER_Oberst_w
+	LIB_GER_Scout_rifleman_w
+	LIB_GER_Scout_ober_rifleman_w
+	LIB_GER_Scout_mgunner_w
+	LIB_GER_Scout_smgunner_w
+	LIB_GER_Scout_unterofficer_w
+	LIB_GER_Scout_lieutenant_w
+	LIB_GER_Scout_sniper_w
+	LIB_GER_Medic_w
+	LIB_GER_Radioman_w
+	LIB_GER_Sapper_w
+	LIB_GER_Sapper_gefr_w
+	LIB_GER_Gun_crew_w
+	LIB_GER_Gun_unterofficer_w
+	LIB_GER_Gun_lieutenant_w
+	LIB_GER_Tank_crew_w
+	LIB_GER_Tank_unterofficer_w
+	LIB_GER_Tank_lieutenant_w
+	LIB_GER_Spg_crew_w
+	LIB_GER_Tank_officer_w
+	LIB_GER_Spg_unterofficer_w
+	LIB_GER_Spg_lieutenant_w
+	LIB_GER_Pilot_w
+	LIB_WP_Strzelec_w
+	LIB_WP_Starszy_strzelec_w
+	LIB_WP_Mgunner_w
+	LIB_WP_AT_grenadier_w
+	LIB_WP_Stggunner_w
+	LIB_WP_Sierzant_w
+	LIB_WP_Porucznic_w
+	LIB_WP_Sniper_w
+	LIB_WP_Medic_w
+	LIB_WP_Radioman_w
+	LIB_WP_Saper_w
+	LIB_WP_Starszy_saper_w
+	LIB_SOV_Soldier_PPSH41_w
+	LIB_SOV_Soldier_mosin_rifle_0_w
+	LIB_SOV_Sergeant_PPSH41_0_w
+	LIB_SOV_Lieutenant_PPSH41_w
+	LIB_SOV_Rifleman_w
+	LIB_SOV_Unequip_w
+	LIB_SOV_Smgunner_w
+	LIB_SOV_LC_rifleman_w
+	LIB_SOV_Mgunner_w
+	LIB_SOV_Medic_w
+	LIB_SOV_AT_soldier_w
+	LIB_SOV_AT_grenadier_w
+	LIB_SOV_Staff_sergeant_w
+	LIB_SOV_Sergeant_w
+	LIB_SOV_P_officer_w
+	LIB_SOV_Lieutenant_w
+	LIB_SOV_First_lieutenant_w
+	LIB_SOV_Captain_w
+	LIB_SOV_Scout_rifleman_w
+	LIB_SOV_Scout_smgunner_w
+	LIB_SOV_Scout_mgunner_w
+	LIB_SOV_Scout_sergeant_w
+	LIB_SOV_Scout_p_officer_w
+	LIB_SOV_Scout_lieutenant_w
+	LIB_SOV_Scout_sniper_w
+	LIB_SOV_Operator_w
+	LIB_SOV_Sapper_w
+	LIB_SOV_Assault_smgunner_w
+	LIB_SOV_Assault_mgunner_w
+	LIB_SOV_Assault_sergeant_w
+	LIB_SOV_Tank_crew_w
+	LIB_SOV_Tank_sergeant_w
+	LIB_SOV_Tank_crew_lieutenant_w
+	LIB_SOV_Tank_lieutenant_w
+	LIB_SOV_Tank_captain_w
+	LIB_SOV_Tank_overall_crew_w
+	LIB_SOV_Tank_overall_sergeant_w
+	LIB_SOV_Tank_overall_lieutenant_w
+	LIB_SOV_Tank_overall_captain_w
+	LIB_SOV_Gun_crew_w
+	LIB_SOV_Gun_sergeant_w
+	LIB_SOV_Gun_lieutenant_w
+	LIB_SOV_Pilot_w
+	LIB_US_Rifleman_w
+	LIB_US_Driver_w
+	LIB_US_FC_rifleman_w
+	LIB_US_Corporal_w
+	LIB_US_Smgunner_w
+	LIB_US_Second_lieutenant_w
+	LIB_US_First_lieutenant_w
+	LIB_US_Captain_w
+	LIB_US_Sniper_w
+	LIB_US_Mgunner_w
+	LIB_US_AT_soldier_w
+	LIB_US_Engineer_w
+	LIB_US_Medic_w
+	LIB_US_Radioman_w
+	LIB_US_Grenadier_w
+	LIB_US_Pilot_w
+	LIB_US_Tank_crew_w
+	LIB_US_Tank_sergeant_w
+	LIB_US_Tank_second_lieutenant_w
+	LIB_Li2_MRWreck
+	LIB_Kfz1_w
+	LIB_Willys_MB_w
+	LIB_US_Willys_MB_w
+	LIB_Scout_m3_w
+	LIB_Scout_M3_FFV_w
+	LIB_US_Scout_m3_w
+	LIB_US_Scout_M3_FFV_w
+	LIB_Opelblitz_open_y_camo_w
+	LIB_Opelblitz_open_g_camo_w
+	LIB_Opelblitz_tent_y_camo_w
+	LIB_Opelblitz_fuel_w
+	LIB_Opelblitz_ambulance_w
+	LIB_Opelblitz_parm_w
+	LIB_Opelblitz_ammo_w
+	LIB_Us6_open_w
+	LIB_Us6_tent_w
+	LIB_Us6_tent_cargo_w
+	LIB_Us6_open_cargo_w
+	LIB_Us6_ammo_w
+	LIB_Us6_bm13_w
+	LIB_US_GMC_Open_w
+	LIB_US_GMC_Tent_w
+	LIB_US_GMC_Ammo_w
+	LIB_US_GMC_Ambulance_w
+	LIB_US_GMC_Parm_w
+	LIB_US_GMC_Fuel_w
+	LIB_Zis5v_w
+	LIB_Zis5v_med_w
+	LIB_Zis6_parm_w
+	LIB_Zis5v_fuel_w
+	LIB_Sdkfz251_w
+	LIB_SdKfz251_FFV_w
+	LIB_SdKfz251_captured_w
+	LIB_SdKfz251_captured_FFV_w
+	LIB_SdKfz_7_w
+	LIB_SdKfz_7_AA_w
+	LIB_US_M3_Halftrack_w
+	LIB_SOV_M3_Halftrack_w
+	LIB_JS2_43_w
+	LIB_M4A3_75_w
+	LIB_M4A3_75_Tubes_w
+	LIB_M4A2_SOV_w
+	LIB_PzKpfwIV_H_w
+	LIB_PzKpfwV_w
+	LIB_PzKpfwVI_B_w
+	LIB_PzKpfwVI_B_camo_w
+	LIB_PzKpfwVI_E_w
+	LIB_StuG_III_G_w
+	LIB_StuG_III_G_WS_w
+	LIB_SU85_w
+	LIB_T34_76_w
+	LIB_T34_85_w
+	LIB_LCVP_w
+	LIB_FW190F8_w
+	LIB_Ju87_w
+	LIB_P39_w
+	LIB_Pe2_w
+	LIB_Li2_w
+	LIB_P47_w
+	LIB_Zis3_w
+	LIB_61k_w
+	LIB_Pak40_w
+	LIB_Pak40_g_w
+	LIB_GER_SearchLight_w
+	LIB_SU_SearchLight_w
+	LIB_MG42_Lafette_trench_w
+	LIB_MG42_Lafette_low_w
+	LIB_Maxim_m30_trench_w
+	LIB_BM37_w
+	LIB_GrWr34_w
+	LIB_FlaK_38_w
+	LIB_FlaK_30_w
+	LIB_Flakvierling_38_w
+
+
+CfgVoice
+	Male01SU
+	Male02SU
+	Male03SU
+	Male01Ger
+	Male02Ger
+	Male03Ger
+	Male04Ger
+	Male05Ger
+	Male06Ger
+
+
+CfgGlasses
+	G_LIB_Binoculars
+	G_LIB_Dienst_Brille
+	G_LIB_Dienst_Brille2
+	G_LIB_Dust_Goggles
+	G_LIB_GER_Gloves1
+	G_LIB_GER_Gloves2
+	G_LIB_GER_Gloves3
+	G_LIB_GER_Gloves4
+	G_LIB_Watch1
+	G_LIB_Watch2
+
+
+CfgFaces
+	LIB_Man
+		Face_MartinWolf
+		Face_Boyartsev
+		Face_Ivanych
+		Face_Oberst
+		Face_Walter
+		Face_Grishka
+		Face_Vasiliev
+		Face_Klimakov
+		Face_Bykov
+		Face_Hauptmann
+		Face_Neumann
+		Face_Kuzmin
+
+
+
+CfgMusic
+	IFTrack01
+	IFTrack02
+	IFTrack03
+	IFTrack04
+	IFTrack05
+	IFTrack07
+	IFTrack08
+	IFTrack09
+	IFTrack10
+	IFTrack11
+	IFTrack12
+	IFTrack13
+	IFTrack14
+	IF_OldTrack1
+	IF_OldTrack2
+	IF_OldTrack3
+	IF_OldTrack4
+	IF_OldTrack5
+	IF_OldTrack6
+
+
+CfgSounds
+	LIB_GetOut
+	LIB_LCVP_Ramp_Open_0
+	LIB_LCVP_Ramp_Open_1
+	LIB_LCVP_Ramp_Close_0
+	LIB_LCVP_Ramp_Close_1
+	LIB_Wire
+	LIB_K98_bolt
+	LIB_Kar98K_Bolt
+	LIB_TankArmorHit
+	LIB_TankCrewContusion
+	LIB_TankCrewContusion2
