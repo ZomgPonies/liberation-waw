@@ -7,7 +7,7 @@ allowFunctionsLog = 0;
 
 loadScreen="res\liberation.jpg";
 onLoadMission = $STR_MISSION_TITLE;
-author = "[GREUH] Zbug, [GREUH] McKeewa, edited by Blind Firepower and modified for WaW by Lorden";
+author = "[GREUH], Blind Firepower, Lorden";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 0;
