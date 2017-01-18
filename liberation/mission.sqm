@@ -200,7 +200,7 @@ class AddonsMetaData
 randomSeed=9519310;
 class ScenarioData
 {
-	author="[GREUH] Zbug, [GREUH] McKeewa -- edited by Blind Firepower";
+	author="[GREUH], Blind Firepower, Lorden";
 	overviewText="By brute force you shall liberate the region from leftist oppression.";
 	onLoadMission="By brute force you shall liberate the region from leftist oppression.";
 };

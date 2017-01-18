@@ -33,7 +33,7 @@ class RscTitles
 		w = 0.4 * safezoneW;
 		y = 0.65 * safezoneH + safezoneY;
 		h = 0.1 * safezoneH;
-		text = "[GREUH] and Blind Firepower present";
+		text = "WaW presents";
 		shadow = 1;
 	  };
 	  class GenericLabelShadow : GenericLabel2{
