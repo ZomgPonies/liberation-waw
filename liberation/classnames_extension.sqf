@@ -44,31 +44,29 @@ infantry_units_extension = [
 	["LIB_GER_stggunner",4,0,0],
 	["LIB_GER_rifleman",2,0,0],
 	["LIB_GER_scout_sniper",6,0,0],
-//	["LIB_GER_radioman",4,0,0],
-//	["SG_sturmtrooper_sapper_gefr",5,0,0],
 	["LIB_GER_unterofficer",3,0,0]
 ];
 
 light_vehicles_overwrite = true;
 light_vehicles_extension = [
-	["LIB_Kfz1",0,0,2],
-	["LIB_Kfz1_MG42",0,4,3],
-	["LIB_opelblitz_open_y_camo",0,0,3],
-	["LIB_opelblitz_tent_y_camo",0,0,4],
-	["LIB_SdKfz_7",0,0,3],
-	["LIB_SdKfz_7_AA",0,10,6],
-	["LIB_SdKfz251_FFV",0,5,5]
+	["LIB_GER_Kubel",0,0,2],
+	["LIB_GER_KubelMG42",0,4,3],
+	["LIB_opelblitz_open_Feldgrau",0,0,3],
+	["LIB_opelblitz_tentB_Feldgrau",0,0,4],
+	["LIB_SdKfz_7",0,0,3], // Not updated to GEIST
+	["LIB_SdKfz_7_AA",0,10,6], // Not updated to GEIST
+	["Lib_ger_SdKfz251FFV_feldgrau",0,5,5]
 ];
 
+// All Tanks updated to GEIST
 heavy_vehicles_overwrite = true;
 heavy_vehicles_extension = [
 	["LIB_StuG_III_G_WS",0,45,10],
 	["LIB_StuG_III_G",0,55,12],
-	["LIB_PzKpfwIV_H",0,90,15],
-	["LIB_PzKpfwV",0,125,25],
-	["LIB_PzKpfwVI_E",0,200,40],
-	["LIB_PzKpfwVI_B",0,250,50],
-	["LIB_PzKpfwVI_B_camo",0,250,50]	
+	["LIB_GER_PzKpfwIV_H_Feldgrau",0,90,15],
+	["LIB_GER_PzKpfwV_Camo",0,125,25],
+	["LIB_GER_PzKpfwVI_E_sPA502_Tarn",0,200,40],
+	["LIB_GER_PzKpfwVI_B_sPA505_Feldgrau",0,250,50]
 ];
 
 air_vehicles_overwrite = true;
@@ -87,8 +85,7 @@ static_vehicles_extension = [
 	["LIB_Flakvierling_38",0,25,0],
 //	["LIB_GrWr34",0,40,0],	// Broken, AI can't fire it
 	["B_Mortar_01_F",0,35,0],	// Using until GrWr34 is fixed
-	["LIB_Pak40_g",0,40,0],
-	["LIB_Pak40",0,40,0]
+	["LIB_ger_Pak40_Feldgrau",0,40,0] //Updated to GEIST
 ];
 
 buildings_overwrite = true;
@@ -406,6 +403,6 @@ blacklisted_from_arsenal_extension = [
 box_transport_config_extension = [
 	[ "lib_us6_tent", -6.5, [0,	-0.95,	0], [0,	-2.5,	0] ],
 	[ "LIB_SdKfz_7", -6.5, [.05,	-0.95,	2], [.05,	-2.5,	2] ],
-	[ "LIB_opelblitz_open_y_camo", -6.5, [-.5,	-0.35,	0], [-.5,	-1.9,	0] ],
-	[ "LIB_opelblitz_tent_y_camo", -6.5, [-.5,	-0.35,	0], [-.5,	-1.9,	0] ]
+	[ "LIB_opelblitz_open_Feldgrau", -6.5, [-.5,	-0.35,	0], [-.5,	-1.9,	0] ],
+	[ "LIB_opelblitz_tentB_Feldgrau", -6.5, [-.5,	-0.35,	0], [-.5,	-1.9,	0] ]
 ];
