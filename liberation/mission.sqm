@@ -12,11 +12,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=27;
+		nextID=29;
 	};
 	class Camera
 	{
-		pos[]={37.702278,117.71719,-39.643517};
+		pos[]={56.28894,240.65411,-106.10672};
 		dir[]={0.060983669,-0.80639088,0.58823943};
 		up[]={0.083154634,0.59137726,0.80209482};
 		aside[]={0.9946726,8.7866283e-008,-0.10311949};
@@ -39,10 +39,18 @@ addons[]=
 	"A3_Structures_F_System",
 	"A3_Structures_F_Mil_Shelters",
 	"A3_Structures_F_Civ_Camping",
+	"cba_xeh",
 	"WW2_Assets_c_Weapons_Ammoboxes_c",
 	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht",
 	"WW2_Terrains_c_Misc_Misc_c",
 	"A3_Characters_F",
+	"WW2_Assets_c_Weapons_InfantryWeapons_c",
+	"A3_Weapons_F",
+	"WW2_Assets_c_Characters_Headgear_c",
+	"GEISTL_ASSETS_C_GER_CAP",
+	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear",
+	"A3_Weapons_F_Items",
+	"GEISTL_ASSETS_C_GER_VEST",
 	"A3_Modules_F",
 	"A3_Modules_F_Curator_Curator",
 	"WW2_Assets_c_Vehicles_Wheeled_c",
@@ -55,13 +63,18 @@ addons[]=
 	"WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40",
 	"WW2_Terrains_c_Structures_Trenches_c",
 	"WW2_Assets_c_Vehicles_StaticWeapons_c",
-	"WW2_Core_c_Core_c"
+	"WW2_Core_c_Core_c",
+	"WW2_Assets_s_Megagoth1702_Sounds_Config_CfgWeapons",
+	"GEISTL_ASSETS_C_GER_UNIFORM_GRADE_WHT_PL",
+	"WW2_Core_c_Core_c_Eventhandlers",
+	"GEISTL_ASSETS_C_GER_HELMET",
+	"WW2_Assets_c_Weapons_Mines_c"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=31;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -117,83 +130,126 @@ class AddonsMetaData
 		};
 		class Item9
 		{
-			className="WW2_Assets_c_Weapons_Ammoboxes_c";
-			name="WW2_Assets_c_Weapons_Ammoboxes_c";
-		};
-		class Item10
-		{
-			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
-			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
-		};
-		class Item11
-		{
-			className="WW2_Terrains_c_Misc_Misc_c";
-			name="WW2_Terrains_c_Misc_Misc_c";
-		};
-		class Item12
-		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item10
+		{
+			className="WW2_Assets_c_Weapons_Ammoboxes_c";
+			name="WW2_Assets_c_Weapons_Ammoboxes_c";
+		};
+		class Item11
+		{
+			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
+			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht";
+		};
+		class Item12
+		{
+			className="WW2_Terrains_c_Misc_Misc_c";
+			name="WW2_Terrains_c_Misc_Misc_c";
+		};
 		class Item13
+		{
+			className="WW2_Assets_c_Weapons_InfantryWeapons_c";
+			name="WW2_Assets_c_Weapons_InfantryWeapons_c";
+		};
+		class Item14
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item15
+		{
+			className="WW2_Assets_c_Characters_Headgear_c";
+			name="WW2_Assets_c_Characters_Headgear_c";
+		};
+		class Item16
+		{
+			className="GEISTL_MAIN";
+			name="GEIST-A3 for IFA3 Lite";
+			author="Joarius";
+		};
+		class Item17
+		{
+			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
+			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
+		};
+		class Item18
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item14
+		class Item19
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item15
+		class Item20
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c";
 			name="WW2_Assets_c_Vehicles_Wheeled_c";
 		};
-		class Item16
+		class Item21
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item17
+		class Item22
 		{
 			className="WW2_Terrains_c_Structures_BuildingsRW_c";
 			name="WW2_Terrains_c_Structures_BuildingsRW_c";
 		};
-		class Item18
+		class Item23
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item19
+		class Item24
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
 		};
-		class Item20
+		class Item25
 		{
 			className="WW2_Terrains_c_Structures_Trenches_c";
 			name="WW2_Terrains_c_Structures_Trenches_c";
 		};
-		class Item21
+		class Item26
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c";
 		};
-		class Item22
+		class Item27
 		{
 			className="WW2_Core_c_Core_c";
 			name="WW2_Core_c_Core_c";
+		};
+		class Item28
+		{
+			className="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgWeapons";
+			name="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgWeapons";
+		};
+		class Item29
+		{
+			className="WW2_Core_c_Core_c_Eventhandlers";
+			name="WW2_Core_c_Core_c_Eventhandlers";
+		};
+		class Item30
+		{
+			className="WW2_Assets_c_Weapons_Mines_c";
+			name="WW2_Assets_c_Weapons_Mines_c";
 		};
 	};
 };
@@ -3001,7 +3057,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -3240,6 +3296,56 @@ class Mission
 						description="Colonel (29 AI + Zeus, very noisy)";
 						isPlayer=1;
 						isPlayable=1;
+						class Inventory
+						{
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_Oberst";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_FieldOfficer_8A";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_LIB_Dienst_Brille2";
+							headgear="H_LIB_GER_OfficerCap_PZGR1";
+						};
 					};
 					id=1145;
 					type="LIB_GER_oberst";
@@ -3277,7 +3383,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -9512,6 +9618,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1828;
 					type="LIB_GER_lieutenant";
@@ -9555,6 +9729,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1831;
 					type="LIB_GER_scout_sniper";
@@ -9598,6 +9846,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1829;
 					type="LIB_GER_unterofficer";
@@ -9641,6 +9971,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1830;
 					type="LIB_GER_sapper";
@@ -9684,6 +10079,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1827;
 					type="LIB_GER_medic";
@@ -9728,6 +10192,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1832;
 					type="LIB_GER_smgunner";
@@ -9767,7 +10364,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -9809,6 +10406,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1835;
 					type="LIB_GER_lieutenant";
@@ -9852,6 +10517,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1839;
 					type="LIB_GER_smgunner";
@@ -9895,6 +10693,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1834;
 					type="LIB_GER_medic";
@@ -9938,6 +10805,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1837;
 					type="LIB_GER_sapper";
@@ -9982,6 +10914,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1836;
 					type="LIB_GER_unterofficer";
@@ -10025,6 +11039,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1838;
 					type="LIB_GER_scout_sniper";
@@ -10062,7 +11150,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -10104,6 +11192,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1842;
 					type="LIB_GER_lieutenant";
@@ -10148,6 +11304,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1846;
 					type="LIB_GER_smgunner";
@@ -10191,6 +11480,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1841;
 					type="LIB_GER_medic";
@@ -10234,6 +11592,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1844;
 					type="LIB_GER_sapper";
@@ -10278,6 +11701,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1843;
 					type="LIB_GER_unterofficer";
@@ -10321,6 +11826,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1845;
 					type="LIB_GER_scout_sniper";
@@ -10359,7 +11938,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -10401,6 +11980,70 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.2];";
 						description="Captain (29 AI, very noisy)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrHptmMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=1;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_OfficerVest_0A";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR1";
+						};
 					};
 					id=1102;
 					type="LIB_GER_hauptmann";
@@ -10438,7 +12081,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -10480,6 +12123,70 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.2];";
 						description="Captain (29 AI, very noisy)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrHptmMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=1;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_OfficerVest_0A";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR1";
+						};
 					};
 					id=1103;
 					type="LIB_GER_hauptmann";
@@ -10517,7 +12224,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -10559,6 +12266,70 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.2];";
 						description="Captain (29 AI, very noisy)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrHptmMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=1;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_OfficerVest_0A";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR1";
+						};
 					};
 					id=1104;
 					type="LIB_GER_hauptmann";
@@ -10596,7 +12367,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -10638,6 +12409,70 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.2];";
 						description="Captain (29 AI, very noisy)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrHptmMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=1;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_OfficerVest_0A";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR1";
+						};
 					};
 					id=1883;
 					type="LIB_GER_hauptmann";
@@ -10696,7 +12531,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -10738,6 +12573,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1849;
 					type="LIB_GER_lieutenant";
@@ -10782,6 +12685,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1853;
 					type="LIB_GER_smgunner";
@@ -10825,6 +12861,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1848;
 					type="LIB_GER_medic";
@@ -10868,6 +12973,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1851;
 					type="LIB_GER_sapper";
@@ -10912,6 +13082,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1850;
 					type="LIB_GER_unterofficer";
@@ -10955,6 +13207,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1852;
 					type="LIB_GER_scout_sniper";
@@ -10994,7 +13320,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -11036,6 +13362,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1856;
 					type="LIB_GER_lieutenant";
@@ -11080,6 +13474,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1860;
 					type="LIB_GER_smgunner";
@@ -11123,6 +13650,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1855;
 					type="LIB_GER_medic";
@@ -11166,6 +13762,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1858;
 					type="LIB_GER_sapper";
@@ -11210,6 +13871,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1857;
 					type="LIB_GER_unterofficer";
@@ -11253,6 +13996,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1859;
 					type="LIB_GER_scout_sniper";
@@ -11291,7 +14108,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -11333,6 +14150,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1863;
 					type="LIB_GER_lieutenant";
@@ -11376,6 +14261,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1866;
 					type="LIB_GER_scout_sniper";
@@ -11420,6 +14379,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1864;
 					type="LIB_GER_unterofficer";
@@ -11463,6 +14504,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1865;
 					type="LIB_GER_sapper";
@@ -11506,6 +14612,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1862;
 					type="LIB_GER_medic";
@@ -11550,6 +14725,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1867;
 					type="LIB_GER_smgunner";
@@ -11589,7 +14897,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -11631,6 +14939,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1870;
 					type="LIB_GER_lieutenant";
@@ -11674,6 +15050,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1869;
 					type="LIB_GER_medic";
@@ -11717,6 +15162,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1872;
 					type="LIB_GER_sapper";
@@ -11761,6 +15271,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1871;
 					type="LIB_GER_unterofficer";
@@ -11804,6 +15396,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1873;
 					type="LIB_GER_scout_sniper";
@@ -11848,6 +15514,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1874;
 					type="LIB_GER_smgunner";
@@ -11887,7 +15686,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
@@ -11929,6 +15728,74 @@ class Mission
 						init="removeallWeapons this; removebackpack this;";
 						description="Second Lieutenant (9 AI)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Officer_HeerPzrLhrOltMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestUnterofficer_3A2";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_8Rnd_9x19";
+										count=3;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_OfficerCap_PZGR2_Uffz";
+						};
 					};
 					id=1877;
 					type="LIB_GER_lieutenant";
@@ -11972,6 +15839,80 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 0.9]; this setUnitTrait [""camouflageCoef"", 0.8]; this setUnitTrait [""loadCoef"", 1.1];";
 						description="Recon (3 AI, quiet, great camo, low endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98ZF39";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class binocular
+							{
+								name="LIB_Binocular_GER";
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefr6yMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_SniperBelt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=4;
+										ammoLeft=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1880;
 					type="LIB_GER_scout_sniper";
@@ -12016,6 +15957,88 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sergeant (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_M1908";
+								class primaryMuzzleMag
+								{
+									name="LIB_8Rnd_9x19";
+									ammoLeft=8;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Unterofficer_HeerPzrLhrFwMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_8a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_8Rnd_9x19";
+										count=1;
+										ammoLeft=8;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_m39";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1878;
 					type="LIB_GER_unterofficer";
@@ -12059,6 +16082,71 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""explosiveSpecialist"", true]; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Sapper (3 AI, noisy, great endurance, disarms mines)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrGefrMp40";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="LIB_ToolKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_PioneerVest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=4;
+										ammoLeft=32;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_SapperBackpack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_TMI_42_MINE_mag";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1879;
 					type="LIB_GER_sapper";
@@ -12102,6 +16190,75 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""loadCoef"", 0.9];";
 						description="Medic (3 AI, good endurance, heals to 100%)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_K98";
+								class primaryMuzzleMag
+								{
+									name="LIB_5Rnd_792x57";
+									ammoLeft=5;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_medic_HeerPzrLhrSchK98";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=10;
+										ammoLeft=5;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestKar98_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_5Rnd_792x57";
+										count=1;
+										ammoLeft=5;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_CowBackpack_01Medic";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="Medikit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1876;
 					type="LIB_GER_medic";
@@ -12146,6 +16303,139 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setUnitTrait [""audibleCoef"", 1.1]; this setUnitTrait [""camouflageCoef"", 0.9]; this setUnitTrait [""loadCoef"", 0.8];";
 						description="Corporal (3 AI, noisy, good camo, great endurance)";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="LIB_MP40";
+								class primaryMuzzleMag
+								{
+									name="LIB_32Rnd_9x19";
+									ammoLeft=32;
+								};
+							};
+							class handgun
+							{
+								name="LIB_FLARE_PISTOL";
+								class primaryMuzzleMag
+								{
+									name="LIB_1Rnd_flare_white";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_LIB_GER_PzrGr_Crew_Private_HeerPzrLhrOgefrMp40";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=2;
+										ammoLeft=32;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_LIB_GER_VestMP40_0a";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="LIB_32Rnd_9x19";
+										count=3;
+										ammoLeft=32;
+									};
+									class Item1
+									{
+										name="LIB_shg24";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_nb39";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_white";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="LIB_1Rnd_flare_red";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="LIB_1Rnd_flare_green";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item6
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_LIB_GER_A_frame_Gef";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="LIB_1Rnd_flare_white";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="LIB_1Rnd_flare_red";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="LIB_1Rnd_flare_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="LIB_1Rnd_flare_yellow";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_LIB_GER_Helmet_WH00";
+						};
 					};
 					id=1881;
 					type="LIB_GER_smgunner";
@@ -12185,7 +16475,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression="_this setGroupID [_value];";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
 					class Value
 					{
 						class data
