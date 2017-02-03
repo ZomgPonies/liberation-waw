@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=29;
+		nextID=33;
 	};
 	class Camera
 	{
 		pos[]={56.28894,240.65411,-106.10672};
-		dir[]={0.060983669,-0.80639088,0.58823943};
-		up[]={0.083154634,0.59137726,0.80209482};
-		aside[]={0.9946726,8.7866283e-008,-0.10311949};
+		dir[]={0.10055102,-0.86070019,0.49910793};
+		up[]={0.16998471,0.50909877,0.84375453};
+		aside[]={0.98031586,1.6927152e-007,-0.19749647};
 	};
 };
 binarizationWanted=0;
@@ -48,7 +48,7 @@ addons[]=
 	"A3_Weapons_F",
 	"WW2_Assets_c_Characters_Headgear_c",
 	"GEISTL_ASSETS_C_GER_CAP",
-	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear",
+	"GEISTL_ASSETS_C_GER_UNIFORM_GRADE_WHT_PL",
 	"A3_Weapons_F_Items",
 	"GEISTL_ASSETS_C_GER_VEST",
 	"A3_Modules_F",
@@ -65,9 +65,9 @@ addons[]=
 	"WW2_Assets_c_Vehicles_StaticWeapons_c",
 	"WW2_Core_c_Core_c",
 	"WW2_Assets_s_Megagoth1702_Sounds_Config_CfgWeapons",
-	"GEISTL_ASSETS_C_GER_UNIFORM_GRADE_WHT_PL",
 	"WW2_Core_c_Core_c_Eventhandlers",
 	"GEISTL_ASSETS_C_GER_HELMET",
+	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear",
 	"WW2_Assets_c_Weapons_Mines_c"
 };
 class AddonsMetaData
@@ -175,76 +175,76 @@ class AddonsMetaData
 		};
 		class Item17
 		{
-			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
-			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
-		};
-		class Item18
-		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c";
 			name="WW2_Assets_c_Vehicles_Wheeled_c";
 		};
-		class Item21
+		class Item20
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item22
+		class Item21
 		{
 			className="WW2_Terrains_c_Structures_BuildingsRW_c";
 			name="WW2_Terrains_c_Structures_BuildingsRW_c";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Pak40";
 		};
-		class Item25
+		class Item24
 		{
 			className="WW2_Terrains_c_Structures_Trenches_c";
 			name="WW2_Terrains_c_Structures_Trenches_c";
 		};
-		class Item26
+		class Item25
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c";
 		};
-		class Item27
+		class Item26
 		{
 			className="WW2_Core_c_Core_c";
 			name="WW2_Core_c_Core_c";
 		};
-		class Item28
+		class Item27
 		{
 			className="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgWeapons";
 			name="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgWeapons";
 		};
-		class Item29
+		class Item28
 		{
 			className="WW2_Core_c_Core_c_Eventhandlers";
 			name="WW2_Core_c_Core_c_Eventhandlers";
+		};
+		class Item29
+		{
+			className="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
+			name="WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht_Gear";
 		};
 		class Item30
 		{
@@ -3313,7 +3313,7 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="U_LIB_GER_Oberst";
+								typeName="U_LIB_GER_Officer_HeerPzrLhrObstMp40";
 								isBackpack=0;
 								class MagazineCargo
 								{
